@@ -1,0 +1,187 @@
+@font-face{
+    font-family:"reza1";
+    src:url("fonts/B-NAZANIN.TTF"),
+        url("fonts/B-NAZANIN.woff");
+}
+@font-face{
+    font-family:"reza2";
+    src:url("fonts/Byekan.ttf"),
+        url("fonts/Byekan.woff");
+}
+@font-face{
+    font-family:"reza3";
+    src: url("fonts/lalezar.ttf"),
+        url("fonts/lalezar.woff");
+}
+body{
+    padding: 80px;
+}
+
+*{
+    color: dimgray;
+    font-family:"reza2";
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.pageone{
+    height:800px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+}
+.header{
+    height: 100px;
+    display: flex;
+   
+}
+.right1{
+    width: 50%;
+    display: flex;
+}
+.img1{
+    height: 100%;
+}
+
+ .header ul{
+    width: 100%;
+    display: flex;
+    list-style:none;
+    align-items: center;
+    justify-content:space-between;
+}
+li a{
+    text-decoration: none;
+    color: darkgray;
+    font-family: "reza3"
+}
+.left1{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.button{
+    color: whitesmoke;
+    padding:5px 20px ;
+    background-color: deepskyblue;
+    align-self: center;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.main{
+    height: 700px;
+    display: flex;
+}
+.buy{
+    width: 40%;
+}
+h1{
+    color: dodgerblue;
+   margin: 50px 20px 10px; 
+}
+h6{
+    color: dodgerblue;
+    font-size: 20px;
+    margin: 5px 20px;
+}
+p{
+    margin: 15px 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+.img2{
+    width: 60%;
+    background-color: red;
+}
+.pagetwo{
+    
+    height: 800px;
+    background-image:linear-gradient(to bottom,white,lightskyblue);
+    display: flex;
+    flex-direction: column;
+}
+.pagetwo h1{
+    color: black;
+   text-align: center;
+   padding-top: 40px; 
+   height: 100px;
+}
+.main2{
+    height: 700px;
+    display: flex;
+    justify-content:space-around;
+}
+.host{
+    align-self: center;
+    margin: 5px;
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    text-align: center;
+    border: 3px dotted black;
+}
+h2{
+    color: whitesmoke;
+    display: inline-block;
+    padding: 10px;
+    background-color:dodgerblue;
+    border-radius: 20px;
+    margin-top: -50px;
+    
+}
+.pagethree{
+    height: 800px;
+    display: flex;
+    
+}
+.pagethree .left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+.img3{
+    width: 50%;
+}
+.pagefour{
+    height: 800px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.pagefour .right{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+.pagefive{
+     height: 800px;
+    display: flex;
+}
+.pagefive .left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer{
+    height: 200px;
+
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 20px;
+}
+.footer ul li{
+   
+    padding: 10px;
+    font-size: 25px;
+}
+.footer p{
+    text-align: center;
+}
